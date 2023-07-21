@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <section class="left">
+            <div class="first">
+                <h1>Stay Updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul>
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </ul>
+            </div>
+            <form id="valid">
+                <div class="second">
+                    <div class="email">
+                        <label for="input-email" class="email-text">Email address</label>
+                        <p class="erorr-text" hidden>Valid email required</p>
+                    </div>
+                    <div class="form-inputs">
+                        <input type="text" name="" placeholder="email@company.com" id="input-email">
+                        <input type="submit" id="submit" value="Subscribe to monthly newsletter">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="right">
+            <div class="group-image"></div>
+        </section>
+    </div>
+    <div class="thank hidden" hidden>
+        <img src="./image/thank_icon.png" alt="">
+       <div class="thank-text">
+            <h1>Thanks for subscribing!</h1>
+            <p >A confirmation email has been sent to <span></span> Please open it and click the button inside to confirm your subscription.</p>
+       </div>
+        <button>Dismiss message</button>
+        
+    </div>
+<script src="./app.js"></script>
+</body>
+
+</html>
